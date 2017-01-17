@@ -33,3 +33,5 @@ for(var i = 0; i < lis.length; i++){
 		this.style.color = "pink"
 	})
 }
+
+//this can also be a named function
