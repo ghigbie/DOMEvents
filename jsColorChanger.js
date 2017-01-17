@@ -11,7 +11,7 @@ blue.addEventListener("click", function(){
 });
 
 orange.addEventListener("click", function(){
-	colorChecker("f2a22b");
+	colorChecker("#f2a22b");
 });
 
 purple.addEventListener("click", function(){
