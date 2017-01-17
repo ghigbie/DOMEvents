@@ -4,15 +4,27 @@ var blue = document.querySelector("#blue");
 var orange = document.querySelector("#orange");
 var purple = document.querySelector("#purple");
 var body = document.querySelector("body");
+var isColor = false;
 
 blue.addEventListener("click", function(){
-	body.classList.add("blue");
+	colorChecker("#4286f4");
 });
 
 orange.addEventListener("click", function(){
-	body.classList.add("orange");
+	colorChecker("f2a22b");
 });
 
 purple.addEventListener("click", function(){
-	body.classList.add("purple");
+	colorChecker("#462bf2");
 });
+
+function colorChecker(colorHexString){
+	if(isColor){
+		body.style.background = "#ffffff";
+		isColor = false;
+	}
+	else{
+		body.style.background = colorHexString;
+		isColor = true;
+	}
+}
