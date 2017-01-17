@@ -1,3 +1,5 @@
+alert("JS file connected!");
+
 var blue = document.querySelector("#blue");
 var orange = document.querySelector("#orange");
 var purple = document.querySelector("#purple");
@@ -11,6 +13,6 @@ orange.addEventListener("click", function(){
 	body.classList.add("orange");
 });
 
-purple.addEventListener("click", fucntion(){
+purple.addEventListener("click", function(){
 	body.classList.add("purple");
 });
