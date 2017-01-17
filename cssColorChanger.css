@@ -2,4 +2,24 @@
 div{
 	margin-left: auto;
 	margin-right: auto;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+button{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2px;
+}
+
+.blue{
+	background: #4286f4;
+}
+
+.orange{
+	background: #f2a22b
+}
+
+.purple{
+	background: #462bf2
 }
