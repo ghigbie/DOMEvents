@@ -21,10 +21,9 @@ purple.addEventListener("click", function(){
 function colorChecker(colorHexString){
 	if(isColor){
 		body.style.background = "#ffffff";
-		isColor = false;
 	}
 	else{
 		body.style.background = colorHexString;
-		isColor = true;
 	}
+	isColor = !isColor; //switches between the two states
 }
